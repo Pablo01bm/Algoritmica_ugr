@@ -1,0 +1,90 @@
+
+
+*******************************************************************************
+Sun Mar 21 20:21:03 2021
+
+
+FIT:    data read from "tiempos_floyd.dat"
+        format = z
+        #datapoints = 48
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.1957587080e+17   0.00e+00  4.99e+07    1.000000e+00
+   5 6.1339532883e-03  -9.90e-11  4.99e+02    4.842303e-09
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00613395
+rel. change during last iteration : -9.89824e-16
+
+degrees of freedom    (FIT_NDF)                        : 47
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0114241
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00013051
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.8423e-09       +/- 3.304e-11    (0.6823%)
+
+
+*******************************************************************************
+Sun Mar 21 20:21:32 2021
+
+
+FIT:    data read from "tiempos_floyd_O2.dat"
+        format = z
+        #datapoints = 48
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x)=b*x**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b            
+   0 1.1957587179e+17   0.00e+00  4.99e+07    1.000000e+00
+   5 3.6881614452e-04  -1.47e-11  4.99e+04    7.026651e-10
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000368816
+rel. change during last iteration : -1.46984e-16
+
+degrees of freedom    (FIT_NDF)                        : 47
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00280128
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.84715e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 7.02665e-10      +/- 8.101e-12    (1.153%)
+
+
+*******************************************************************************
+Sun Mar 21 20:21:55 2021
+
+
+FIT:    data read from "tiempos_floyd_O3.dat"
+        format = z
+        #datapoints = 48
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x)=c*x**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c            
+   0 1.1957587178e+17   0.00e+00  4.99e+07    1.000000e+00
+   5 6.0048484107e-04  -1.81e-11  4.99e+04    7.437421e-10
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000600485
+rel. change during last iteration : -1.80554e-16
+
+degrees of freedom    (FIT_NDF)                        : 47
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00357439
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.27763e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 7.43742e-10      +/- 1.034e-11    (1.39%)

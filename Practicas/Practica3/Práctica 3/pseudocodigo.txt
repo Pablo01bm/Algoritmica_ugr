@@ -1,0 +1,53 @@
+int posMayorQueCabe(int pesoRestante){
+    //En el caso de que no haya un objeto que quepa
+    int pos = -1;
+    for(int i = 0; i < w.size(); i++)
+        //Si hay un objeto que cabe y tiene mayor peso del que se habia guardado, se reemplaza.
+        if(w[i] < pesoRestante && w[i] > w[pos])
+            pos = i;
+    return pos;
+}
+
+funcion posMayorQueCabe (argumento = pesoRestante (int))
+    posicion = -1 por si no encuentra uno que quepa
+
+    for i = 0 hasta el tamaño de los objetos
+        si w[i] < pesoRestante
+            si posicion == -1
+                posicion = i
+            no si w[i] >= w[posicion]
+                posicion = i
+
+    return posicion
+
+fin funcion
+
+//Algoritmo Greedy
+int funcionGreedy ()
+begin
+	recipientes = 0(int);
+	while(w.empty() == false)
+	begin
+		//Declaramos las variables peso(r) y posición(posObj)
+		r = 1;
+		posObjeto(int);
+		
+		for i = 0 mientras i < w.size() i++
+		begin
+			posObjeto = posMayorQueCabe(r);
+			
+			Si posObjeto != -1
+			begin
+				r -= w[posObjeto];
+				w.erase(w.begin() + posObjeto);
+			end
+			
+			
+		end
+		
+		recipientes++;
+	end
+	
+	return recipientes;
+
+end

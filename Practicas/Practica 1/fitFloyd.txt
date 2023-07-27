@@ -1,0 +1,22 @@
+gnuplot> fit f(x) "tiempos_floyd.dat" via a
+iter      chisq       delta/lim  lambda   a            
+   0 1.1957587080e+17   0.00e+00  4.99e+07    1.000000e+00
+   1 4.9802528447e+13  -2.40e+08  4.99e+06    2.040817e-02
+   2 2.1606677079e+06  -2.30e+12  4.99e+05    4.255657e-06
+   3 6.1433311458e-03  -3.52e+13  4.99e+04    4.851159e-09
+   4 6.1339532883e-03  -1.53e+02  4.99e+03    4.842303e-09
+   5 6.1339532883e-03  -9.90e-11  4.99e+02    4.842303e-09
+iter      chisq       delta/lim  lambda   a            
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00613395
+rel. change during last iteration : -9.89824e-16
+
+degrees of freedom    (FIT_NDF)                        : 47
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0114241
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00013051
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.8423e-09       +/- 3.304e-11    (0.6823%)
+

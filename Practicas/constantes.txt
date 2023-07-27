@@ -1,0 +1,75 @@
+
+Burbuja e insercion
+Hibridas:
+
+Burbuja
+
+a =2.312*10^-9
+
+Insercion
+
+a =8.82544*10^-10 
+
+Optimizacion insercion
+
+O2: b = 1.56339e-10
+O3: c = 1.61047e-10 
+
+Optimizacion burbuja
+
+O2: b = 1.02841e-09 
+O3: c = 1.14087e-09 
+
+****************************************************
+
+Mergesort y Quicksort
+
+quickshort
+
+a = 1.05566e-08.
+
+Mergesort
+
+a = 1.78845e-08
+
+Opt merg
+
+b= 7.05105e-09
+c= 7.33414e-09
+
+Opt Quick
+
+b= 5.69908e-09
+c= 5.43216e-09
+
+********************************************************
+
+Floyd y Dijkstra
+
+Floyd
+
+= 4.8423e-09
+
+Dijkstra
+
+a= 4.8423e-09
+
+Opt Floyd 
+
+b = 7.02665e-10 
+
+c = 7.43742e-10 
+
+Opt Dijkstra
+
+b = 2.58512e-09
+
+c = 2.80333e-09 
+
+a   = 4.8423e-09
+
+
+
+
+
+

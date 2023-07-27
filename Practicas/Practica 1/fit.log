@@ -1,0 +1,60 @@
+
+
+*******************************************************************************
+Thu Mar 18 19:23:26 2021
+
+
+FIT:    data read from "tiempos_floyd.dat"
+        format = z
+        #datapoints = 48
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.1957587080e+17   0.00e+00  4.99e+07    1.000000e+00
+   5 6.1339532883e-03  -9.90e-11  4.99e+02    4.842303e-09
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00613395
+rel. change during last iteration : -9.89824e-16
+
+degrees of freedom    (FIT_NDF)                        : 47
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0114241
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00013051
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.8423e-09       +/- 3.304e-11    (0.6823%)
+
+
+*******************************************************************************
+Thu Mar 18 19:47:46 2021
+
+
+FIT:    data read from "tiempos_dijkstra.dat"
+        format = z
+        #datapoints = 48
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 9.4349843275e-02   0.00e+00  2.42e-01    4.842303e-09
+   3 7.9472347149e-03  -1.96e-05  2.42e-04    5.692347e-09
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00794723
+rel. change during last iteration : -1.96452e-10
+
+degrees of freedom    (FIT_NDF)                        : 47
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0130035
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00016909
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 5.69235e-09      +/- 3.76e-11     (0.6606%)

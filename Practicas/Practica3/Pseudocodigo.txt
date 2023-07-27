@@ -1,0 +1,64 @@
+// PSEUDOCODIGO MAYOR TAMANIO
+
+vector w (double);
+n=0 (int)
+
+Uniforme()		//Funcion que calcula  los pesos aleatorios
+begin
+	t = aleatorio();
+	f = aleatorio();
+	return t/f;
+end
+
+void generaPesos ()
+begin 
+	listaPseudoAleatorios(time);
+	for i=0 mientras i < n  i++
+	begin
+		u=uniforme()(double);
+		w.aniade(u);
+	end
+end
+
+int posMayorQueCabe(pesoRestante(int))
+begin
+	//En el caso de que no haya un objeto que quepa
+	pos = -1;
+	for i=0 mientras i < w.size() i++
+	begin
+		//Si hay un objeto que cabe y tiene mayor peso del que se habia guardado, se reemplaza
+		Si w[i] < pesoRestante and w[i] > w[pos]
+			pos = i;
+	end
+	return pos;
+end
+
+//Algoritmo Greedy
+int funcionGreedy ()
+begin
+	recipientes = 0(int);
+	while(w.empty() == false)
+	begin
+		//Declaramos las variables peso(r) y posición(posObj)
+		r = 1;
+		posObjeto = 0(int);
+		
+		while posObjeto != -1
+		
+			posObjeto = posMayorQueCabe(r);
+			
+			Si posObjeto != -1
+			begin
+				r -= w[posObjeto];
+				w.borrar(posObjeto);
+				
+			end
+		end	
+		recipientes++;	
+	end
+	
+	
+	
+	return recipientes;
+
+end
